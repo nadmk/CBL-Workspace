@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 workdir=$PWD
 if [ -z "$1" ]
 then
@@ -29,7 +29,7 @@ else
         cd $workdir
         touch builds.txt
         echo $1 >> builds.txt
-        sh ./generate-configs.sh $1
+        sh ./generate_default_configs.sh $1
 
         #rm -rf CBL_$1/SPECS/os-subrelease/os-subrelease.spec
         #cp example_configs/example-subrelease.spec CBL_$1/SPECS/os-subrelease/os-subrelease.spec
