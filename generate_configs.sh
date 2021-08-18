@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 #Generate the ISO/VHD/VHDx config files for Custom CBL Builds
 cd CBL_$1/imageconfigs/
 touch iso.json

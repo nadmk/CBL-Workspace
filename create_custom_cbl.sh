@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/bash
 workdir=$PWD
 if [ -z "$1" ]
 then
